@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmadeusShowcase.Web", "AmadeusShowcase.Web\AmadeusShowcase.Web.csproj", "{C082601E-1AC7-42D5-A078-083203BEEF47}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B4A3C057-EFAC-4A49-940D-5C04765B6521} = {B4A3C057-EFAC-4A49-940D-5C04765B6521}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmadeusShowcase.DAL", "AmadeusShowcase.DAL\AmadeusShowcase.DAL.csproj", "{B4A3C057-EFAC-4A49-940D-5C04765B6521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmadeusShowcase.Service", "AmadeusShowcase.Service\AmadeusShowcase.Service.csproj", "{6C573D0B-8DF6-4706-825B-D009C09ACF6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C082601E-1AC7-42D5-A078-083203BEEF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C082601E-1AC7-42D5-A078-083203BEEF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C082601E-1AC7-42D5-A078-083203BEEF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C082601E-1AC7-42D5-A078-083203BEEF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A3C057-EFAC-4A49-940D-5C04765B6521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A3C057-EFAC-4A49-940D-5C04765B6521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A3C057-EFAC-4A49-940D-5C04765B6521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A3C057-EFAC-4A49-940D-5C04765B6521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C573D0B-8DF6-4706-825B-D009C09ACF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C573D0B-8DF6-4706-825B-D009C09ACF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C573D0B-8DF6-4706-825B-D009C09ACF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C573D0B-8DF6-4706-825B-D009C09ACF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB5484F1-5A9E-4514-BDD6-DE438A4E6B76}
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
