@@ -43,7 +43,7 @@ namespace AmadeusShowcase.Web.Controllers
                     List<FlightDTO> flights = fs.FindFlights(searchDTO);
                     return View("Results", flights);
                 }
-                catch ()
+                catch
                 {
                     //neki mehanizam logiranja grešaka, npr:
                     //Logger.Log(e.StackTrace, ...)

@@ -1,6 +1,6 @@
 # Amadeus showcase
 
-The purpouse of this application is to showcase leveraging Amadeus Self-Service cheap flights API.
+The purpouse of this application is to showcase leveraging Amadeus Self-Service cheap flights search API.
 
 ## Usage
 
